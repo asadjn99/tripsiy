@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* 1. Define your tripsiy orange color */
+  --color-primary: #f49c0b;
+  --color-primary-hover: #d68b09;
+
+  /* 2. Link the Next.js font to Tailwind's 'font-sans' */
+  --font-sans: var(--font-poppins), sans-serif;
+}
+
+/* 3. Optional: Set default body styles */
+body {
+  font-family: var(--font-sans);
+}

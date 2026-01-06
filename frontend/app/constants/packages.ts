@@ -1,0 +1,38 @@
+export const featuredPackages = [
+  {
+    id: 1,
+    title: "Dubai City Tour",
+    duration: "3 Days / 2 Nights",
+    price: "499",
+    currency: "AED",
+    image: "/fet/fet-11.png",
+    link: "/packages/dubai-tour",
+  },
+  {
+    id: 2,
+    title: "Luxury Island Escape",
+    duration: "5 Days / 4 Nights",
+    price: "1999",
+    currency: "AED",
+    image: "/fet/fet-22.png",
+    link: "/packages/island-escape",
+  },
+  {
+    id: 3,
+    title: "Hot Air Balloon",
+    duration: "4 Days / 3 Nights",
+    price: "1299",
+    currency: "AED",
+    image: "/fet/fet-33.png",
+    link: "/packages/hot-air-balloon",
+  },
+  {
+    id: 4,
+    title: "Romantic Greek Getaway",
+    duration: "5 Days / 4 Nights",
+    price: "1799",
+    currency: "AED",
+    image: "/fet/fet-44.png", 
+    link: "/packages/greek-getaway",
+  },
+];
