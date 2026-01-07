@@ -4,7 +4,6 @@ import "./globals.css";
 import Navbar from "@/../components/layout/Navbar";
 import Footer from "@/../components/layout/Footer";
 
-// 2. font
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -14,6 +13,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Tripsiy | Travel & Tours",
   description: "Your trusted travel partner for unforgettable experiences.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
@@ -24,11 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={poppins.className}>
-
         <Navbar />
         {children}
         <Footer />
-
       </body>
     </html>
   );
