@@ -1,15 +1,19 @@
 @import "tailwindcss";
 
 @theme {
-  /* primary */
+  /* 1. Primary Colors */
   --color-primary: #f49c0b;
   --color-primary-hover: #d68b09;
 
-  /* 2. Next.js font link to Tailwind's 'font-sans' */
+  /* 2. New Dark Colors (Add these) */
+  --color-dark: #222222;       /* The main bar background */
+  --color-dark-card: #333333;  /* The buttons/dropdowns background */
+
+  /* 3. Fonts */
   --font-sans: var(--font-poppins), sans-serif;
 }
 
-/* 3. default body styles */
+/* 4. Default styles */
 body {
   font-family: var(--font-sans);
 }

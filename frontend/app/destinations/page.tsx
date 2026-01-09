@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Get in touch with Tripsiy for your next adventure.",
 };
 
-export default function ContactPage() {
+export default function DestinationsPage() {
   return (
     <main className="min-h-screen bg-white">
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Learn about Tripsiy, a UAE-based travel company turning dream vacations into real adventures.",
 };
 
-export default function AboutPage() {
+export default function ServicesPage() {
   return (
     <main className="min-h-screen">
       
