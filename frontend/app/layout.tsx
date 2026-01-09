@@ -16,6 +16,21 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.png",
   },
+ 
+  openGraph: {
+    title: "Tripsiy | Travel & Tours",
+    description: "Your trusted travel partner for unforgettable experiences.",
+    images: [
+      {
+        url: "/logo.png", 
+        width: 800,      
+        height: 600,      
+        alt: "Tripsiy Logo",
+      },
+    ],
+    type: "website",
+  },
+  // -------------------------------------------------------
 };
 
 export default function RootLayout({
